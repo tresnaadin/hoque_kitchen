@@ -1,0 +1,102 @@
+.burger-menu {
+    margin: 30px;
+}
+
+.search-menu {
+    margin: auto;
+    margin-right: 31.31px;
+}
+
+.title {
+    margin: auto;
+    margin-right: 50px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.cart-text {
+    margin-top: 30px;
+    margin-left: 130px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.box-cart {
+    margin-top: 40px;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    font-family: 'Barlow', sans-serif;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    background: #57CAD5;
+}
+
+article {
+    display: flex;
+}
+
+.main-navigation {
+    width: 109px;
+    height: 938px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.fork-icon {
+    margin-top: 32.48px;
+    margin-left: 28px
+}
+
+.food-menu {
+    display: flex;
+    width: 893px;
+    height: 940px;
+    flex-wrap: wrap;
+    background: rgba(190, 195, 202, 0.3);
+}
+
+.no-order {
+
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.text-empty {
+
+    top: 400px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.text-add-order {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #CECECE;
+    text-align: center;
+}
+
+.menu {
+    margin: auto;
+    width: 251px;
+    height: 267px;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    color: #000000;
+    font-size: 25px;
+    line-height: 33px;
+}
+
+p {
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    color: #000000;
+    font-size: 25px;
+    line-height: 33px;
+}

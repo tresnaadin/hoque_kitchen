@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+        }
+
+        .nav-left {
+            width: 1002px;
+            height: 100px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            background-color: #ffff;
+        }
+
+        .nav-right {
+            width: 330px;
+            height: 100px;
+            box-shadow: 0psx 4px 10px rgba(0, 0, 0, 0.25);
+            background-color: #ffff;
+            box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.25);
+        }
+
+        .header-left {
+            display: flex;
+            justify-content: space-between
+        }
+
+        .header-right {
+            display: flex;
+            text-align: left;
+        }
+    </style>
+    <title>LeBlanc Cafe</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-left">
+            <div class="header-left">
+                <img class="burger-menu" src="icon/menu.svg" alt="">
+                <h1 class="title">Food Items</h1>
+                <img class="search-menu" src="icon/magnifying-glass.svg" alt="">
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="header-right" style="text-align:left;">
+                <h1 class="cart-text">Cart</h1>
+                <div class="box-cart">0</div>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="main-navigation">
+            <img class="fork-icon" src="icon/fork.svg" alt="">
+            <a href="history.html"><img class="fork-icon" src="icon/clipboard.svg" alt=""></a>
+            <img class="fork-icon" src="icon/add.svg" alt="">
+        </div>
+        <div class="food-menu">
+            <div class="menu">
+                <img src="icon/1.png" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rp. 10.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/2.png" alt="Coffee Latte">
+                <h3>Coffe Latte</h3>
+                <p>Rp. 15.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/3.png" alt="Cappucino">
+                <h3>Cappucino</h3>
+                <p>Rp. 5.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/4.png" alt="Red Velvet Latte">
+                <h3>Red Velvet Latte</h3>
+                <p>Rp. 33.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/5.png" alt="Choco Rhum">
+                <h3>Choco Rhum</h3>
+                <p>Rp. 28.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/6.png" alt="Black Forest">
+                <h3>Black Forest</h3>
+                <p>Rp. 30.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/7.png" alt="Chiken Katsu Dabu">
+                <h3>Chiken Katsu Dabu</h3>
+                <p>Rp. 60.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/8.png" alt="Salmon Truffle Teriyaki">
+                <h3>Salmon Truffle Teriyaki</h3>
+                <p>Rp. 60.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/9.png" alt="Wiener Schnitzel">
+                <h3>Wiener Schnitzel</h3>
+                <p>Rp. 69.000</p>
+            </div>
+        </div>
+        <div class="cart">
+            <a href="home_select.html"><img class="no-order" src="icon/food-and-restaurant.svg" alt="Empty Cart"></a>>
+            <h1 class="text-empty">Your cart is empty</h1>
+            <h1 class="text-add-order" style="text-align: center;">Please add some items from the menu</h1>
+        </div>
+    </article>
+</body>
+
+</html>

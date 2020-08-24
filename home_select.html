@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_select.css">
+    <title>LeBlanc Cafe</title>
+</head>
+<body>
+    <header>
+        <div class="nav-left">
+            <div class="header-left">
+                <img class="burger-menu" src="icon/menu.svg" alt="">
+                <h1 class="title">Food Items</h1>
+                <img class="search-menu" src="icon/magnifying-glass.svg" alt="">
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="header-right">
+                <h1 class="cart-text">Cart</h1>
+                <div class="box-cart">3</div>
+            </div>
+        </div>
+    </header>
+    <article>
+        <aside class="main-navigation">
+            <img class="fork-icon" src="icon/fork.svg" alt="Menu">
+           <a href="history.html"><img class="fork-icon" src="icon/clipboard.svg" alt="History"></a>
+            <button class="btn" data-toggle="modal" data-target="#modalAdd"><img class="fork-icon-2"
+                src="icon/add.svg" alt="Add Item"></button>
+        </aside>
+        <div class="food-menu">
+            <div class="menu">
+                <img src="icon/1.png" alt="Espresso">
+                <h3 class="font-menu">Espresso</h3>
+                <p>Rp. 10.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/select.png" alt="Coffe Latte" class="overlay">
+                <img src="icon/2.png" alt="" class="image">
+                <h3 class="font-menu">Coffe Latte</h3>
+                <p>Rp. 15.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/3.png" alt="Cappucino">
+                <h3 class="font-menu">Cappucino</h3>
+                <p>Rp. 5.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/4.png" alt="Red Velvet Latte">
+                <h3 class="font-menu">Red Velvet Latte</h3>
+                <p>Rp. 33.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/5.png" alt="Choco Rhum">
+                <h3 class="font-menu">Choco Rhum</h3>
+                <p>Rp. 28.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/select.png" alt="" class="overlay">
+                <img src="icon/6.png" alt="Black Forest">
+                <h3 class="font-menu">Black Forest</h3>
+                <p>Rp. 30.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/7.png" alt="Chicken Katsu Dabu">
+                <h3 class="font-menu">Chiken Katsu Dabu</h3>
+                <p>Rp. 60.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/select.png" alt="" class="overlay">
+                <img src="icon/8.png" alt="Salmon Truffle Teriyaki">
+                <h3 class="font-menu">Salmon Truffle Teriyaki</h3>
+                <p>Rp. 60.000</p>
+            </div>
+            <div class="menu">
+                <img src="icon/9.png" alt="Wiener Schnitzel">
+                <h3 class="font-menu">Wiener Schnitzel</h3>
+                <p>Rp. 69.000</p>
+            </div>
+        </div>
+        <img src="icon/supermarket.png" alt="" onclick="openNav()" class="navPlus">
+        <aside class="cart">
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-2">
+                        <img class="checkout-img" src="icon/2.png" alt="">
+                    </div>
+                    <div class="col ml-3 mt-2">
+                        <h3 class="title-menu">Coffe Latte</h3>
+                        <div class="flex-checkout ml-3">
+                            <div class="del-items-order">-</div>
+                            <div class="box-count">1</div>
+                            <div class="del-items-order">+</div>
+                            <h4 class="price">Rp. 15.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3"></div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="checkout-img" src="icon/6.png" alt="">
+                    </div>
+                    <div class="col ml-3 mt-2">
+                        <h3 class="title-menu">Black Forest</h3>
+                        <div class="flex-checkout ml-3">
+                            <div class="del-items-order">-</div>
+                            <div class="box-count">1</div>
+                            <div class="del-items-order">+</div>
+                            <h4 class="price">Rp. 30.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3"></div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="checkout-img" src="icon/8.png" alt="">
+                    </div>
+                    <div class="col ml-3 mt-2">
+                        <h3 class="title-menu">Salmon Truffle</h3>
+                        <div class="flex-checkout ml-3">
+                            <div class="del-items-order">-</div>
+                            <div class="box-count">1</div>
+                            <div class="del-items-order">+</div>
+                            <h4 class="price">Rp. 60.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="space"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="total-price-text">Total:</h4>
+                            <h6>*Belum termasuk ppn</h6>
+                        </div>
+                        <div class="col">
+                            <h4 class="total-price-text ml-5">Rp.105.000*</h4>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-checkout" data-toggle="modal" data-target="#modalCashier">Checkout</button>
+                <a href="index.html"><button class="btn btn-cancel">Cancel</button></a>
+                <!-- Modal Cashier -->
+                <div class="modal fade" id="modalCashier" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="box-modal">
+                                <div class="container mt-3">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>Checkout</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <h6>Receipt no: #010410919</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <p class="ml-3 text-cashier-modal">Cashier: Pevita Pearce</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5>Coffe Latte 1x</h5>
+                                        </div>
+                                        <div class="col-3">
+                                            <h5>Rp. 15.000</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5>Black Forest 1x</h5>
+                                        </div>
+                                        <div class="col-3">
+                                            <h5>Rp. 30.000</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5>Salmon Truffle Teriyaki 1x</h5>
+                                        </div>
+                                        <div class="col-3">
+                                            <h5>Rp. 60.000</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5>Ppn 10%</h5>
+                                        </div>
+                                        <div class="col-3">
+                                            <h5>Rp. 10.500</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-end">
+                                        <div class="col-4">
+                                            <h5>Total: Rp. 115.500</h5>
+                                        </div>
+                                    </div>
+                                    <h6>Payment: Cash</h6>
+                                    <button class="btn btn-modal-print">Print</button>
+                                    <h6 class="text-center">Or</h6>
+                                    <button class="btn btn-modal-mail-send">Send Email</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal code add items -->
+                <div class="modal fade" id="modalAdd" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="box-modal-2">
+                                <div class="container mt-3">
+                                    <h3>Add Item</h3>
+                                    <div class="mt-5"></div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <h5>Name</h5>
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="mt-3"></div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <h5>Image</h5>
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="mt-3"></div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <h5>Price</h5>
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="mt-3"></div>
+                                    <div class="row"></div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 for="exampleFormControlSelect1">Category</h5>
+                                            </div>
+                                            <div class="col">
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>Drink</option>
+                                                    <option>Food</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="mt-5"></div>
+                                        <div class="row justify-content-end">
+                                            <div class="col-2">
+                                                <button class="btn button-cancel-item">Cancel</button>
+                                            </div>
+                                            <div class="col-2">
+                                                <button class="btn button-add-item">Add</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </article>
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>
