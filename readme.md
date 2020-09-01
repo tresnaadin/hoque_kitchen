@@ -13,3 +13,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Coder Notes
 This project has many potential to make it more better, and i'll be glad if you could contribute to it.
 If you think this little project could be your media to learn about HTML & CSS and Bootstrap, you could freely clone this repo
+
+## LeBlanc Cafe Exterior
+Shoutout to Justin Myles @ArtStation for this great art!
+![alt tag](https://cdnb.artstation.com/p/assets/images/images/025/609/495/large/justin-myles-project01.jpg?1586348913 "LeBlanc Cafe Interior")
